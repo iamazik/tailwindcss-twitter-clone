@@ -1,10 +1,28 @@
 <template>
   <div class="flex flex-col content-between min-h-screen">
     <div class="flex flex-1 flex-col-reverse md:flex-row">
-      <div class="flex flex-1 bg-blue-500 justify-center items-center">
-        <ul class="max-w-sm text-white text-lg font-bold">
+      <div
+        class="flex flex-1 relative overflow-hidden bg-blue-500 justify-center items-center"
+      >
+        <svg
+          class="absolute w-screen opacity-50 left-0"
+          viewBox="0 0 1208 982"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="fill-current text-blue-600"
+            d="M1207.753 116.196c-44.435 19.727-92.192 33.012-142.313 39 51.178-30.646 90.48-79.208 108.949-137.08-47.857 28.382-100.898 49.015-157.36 60.136C971.889 30.093 907.425 0 836.168 0c-159.977 0-277.532 149.258-241.4 304.203C388.896 293.887 206.324 195.253 84.09 45.34c-64.917 111.365-33.666 257.05 76.642 330.824-40.56-1.309-78.806-12.43-112.17-31-2.718 114.788 79.56 222.177 198.725 246.08-34.873 9.461-73.069 11.675-111.918 4.228 31.502 98.431 122.99 170.041 231.486 172.054C262.686 849.201 131.444 885.686 0 870.187 109.654 940.486 239.94 981.5 379.838 981.5c460.054 0 719.972-388.545 704.271-737.032 48.411-34.974 90.43-78.604 123.644-128.273z"
+            fill="none"
+            fill-rule="nonzero"
+          />
+        </svg>
+        <ul class="z-0 max-w-sm text-white text-lg font-bold">
           <li class="flex m-10 md:mx-0">
-            <svg class="w-8 h-8 mr-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <svg
+              class="w-8 h-8 mr-5"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
                 class="fill-current"
                 d="M12.906 14.32a8 8 0 1 1 1.414-1.414l5.337 5.337-1.414 1.414-5.337-5.337zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"
@@ -15,7 +33,11 @@
             Follow your interests.
           </li>
           <li class="flex m-10 md:mx-0">
-            <svg class="w-8 h-8 mr-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <svg
+              class="w-8 h-8 mr-5"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
                 class="fill-current"
                 d="M7 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 1a17.93 17.93 0 0 0-6.109 1.086L2 16h1.25L4 20h6l.75-4H12l1.109-5.914A17.93 17.93 0 0 0 7 9zm8.315.171L13.66 18h-1.25l-.375 2H16l.75-4H18l1.109-5.914a18.211 18.211 0 0 0-3.794-.915zM13 0a3.99 3.99 0 0 0-1.329.243A5.964 5.964 0 0 1 13 4a5.964 5.964 0 0 1-1.329 3.757c.418.147.86.243 1.329.243a4 4 0 0 0 0-8z"
@@ -26,7 +48,11 @@
             Hear what people are talking about.
           </li>
           <li class="flex m-10 md:mx-0">
-            <svg class="w-8 h-8 mr-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <svg
+              class="w-8 h-8 mr-5"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
                 class="fill-current"
                 d="M10 15h8.01c1.092 0 1.99-.898 1.99-2.006V3.006A1.998 1.998 0 0 0 18.01 1H1.99C.899 1 0 1.898 0 3.006v9.988C0 14.103.891 15 1.99 15H6v4l4-4zM5 7h2v2H5V7zm4 0h2v2H9V7zm4 0h2v2h-2V7z"
@@ -39,29 +65,35 @@
         </ul>
       </div>
       <div class="flex flex-1 justify-center items-center">
-        <div class="flex hidden lg:flex justify-center self-start absolute mt-8">
+        <div
+          class="flex hidden lg:flex justify-center self-start absolute mt-8"
+        >
           <form class="w-full max-w-lg">
             <div class="flex flex-wrap mb-6 sm:mb-0">
               <div class="w-full md:w-2/5 pr-3 mb-6 sm:mb-0">
                 <input
-                  class="appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:border-blue-500"
+                  class="appearance-none block w-full text-sm text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:border-blue-500"
                   type="text"
                   placeholder="Phone, email, or username"
                 />
               </div>
               <div class="w-full md:w-2/5 pr-3 mb-6 sm:mb-0">
                 <input
-                  class="appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:border-blue-500"
+                  class="appearance-none block w-full text-sm text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:border-blue-500"
                   type="password"
                   placeholder="Password"
                 />
-                <a class="text-sm text-gray-500 hover:underline" href="#">Forgot password?</a>
+                <a class="text-sm text-gray-500 hover:underline" href="/forgot"
+                  >Forgot password?</a
+                >
               </div>
               <div class="w-full md:w-1/5">
                 <button
                   class="w-full text-sm bg-transparent hover:bg-blue-100 text-blue-500 font-bold py-3 px-4 rounded-full focus:outline-none focus:shadow-outline border border-blue-500"
                   type="button"
-                >Log in</button>
+                >
+                  Log in
+                </button>
               </div>
             </div>
           </form>
@@ -81,20 +113,25 @@
             <a
               class="lg:hidden text-sm bg-transparent hover:bg-blue-100 text-blue-500 font-bold py-2 px-3 rounded-full focus:outline-none focus:shadow-outline border border-blue-500"
               href="#"
-            >Log in</a>
+              >Log in</a
+            >
           </div>
-          <h1 class="text-2xl font-bold leading-tight">See what's happening in the world right now</h1>
+          <h1 class="text-2xl font-bold leading-tight">
+            See what's happening in the world right now
+          </h1>
           <div class="mt-10">
             <h2 class="font-bold text-lg mb-3">Join Twitter Today.</h2>
             <div class="flex flex-col">
               <a
                 class="w-full mb-4 bg-blue-500 text-white text-center text-sm font-bold py-2 rounded-full focus:outline-none focus:shadow-outline hover:bg-blue-700"
-                href="#"
-              >Sign up</a>
+                href="/signup"
+                >Sign up</a
+              >
               <a
                 class="w-full bg-transparent text-blue-500 text-center text-sm font-bold py-2 rounded-full border border-blue-500 focus:outline-none focus:shadow-outline hover:bg-blue-100"
-                href="#"
-              >Log in</a>
+                href="/login"
+                >Log in</a
+              >
             </div>
           </div>
         </div>
